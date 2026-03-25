@@ -1,5 +1,6 @@
 """Pydantic v2 models — source of truth for all OpenAuntie data."""
 
+from parenting.models.activities import ActivitySuggestion, FamilyEvent, TripPlan
 from parenting.models.behavior import (
     ChoreCompletion,
     ChoreDefinition,
@@ -12,13 +13,16 @@ from parenting.models.education import HomeworkEntry, LearningGoal, ReadingEntry
 from parenting.models.emotional import ConflictRecord, DevelopmentalMilestone, MoodEntry
 from parenting.models.family import Child, FamilyProfile, Parent
 from parenting.models.feedback import AdviceFeedback
+from parenting.models.financial import AllowanceConfig, FinancialTransaction, SavingsGoal
 from parenting.models.health import Appointment, GrowthRecord, Medication, MedicationLog
 from parenting.models.journal import JournalEntry
 from parenting.models.research import ResearchUpdate
 from parenting.models.routines import RoutineDefinition, RoutineExecution, RoutineStep
 
 __all__ = [
+    "ActivitySuggestion",
     "AdviceFeedback",
+    "AllowanceConfig",
     "Appointment",
     "Child",
     "ChoreCompletion",
@@ -26,7 +30,9 @@ __all__ = [
     "ConflictRecord",
     "ConsequenceLog",
     "DevelopmentalMilestone",
+    "FamilyEvent",
     "FamilyProfile",
+    "FinancialTransaction",
     "GrowthRecord",
     "HomeworkEntry",
     "JournalEntry",
@@ -43,4 +49,6 @@ __all__ = [
     "RoutineDefinition",
     "RoutineExecution",
     "RoutineStep",
+    "SavingsGoal",
+    "TripPlan",
 ]

@@ -1,3 +1,0 @@
-[mcp_servers.parenting]
-command = "uv"
-args = ["run", "--directory", "C:\Projects\parenting", "python", "-m", "mcp_server.run_server"]
