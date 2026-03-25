@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m uv add pydantic \"mcp[cli]\")",
+      "Bash(python -m uv add --dev pytest ruff mypy)",
+      "Bash(python -m uv run python -c \"import parenting; print\\(f''OpenAuntie v{parenting.__version__}''\\)\")",
+      "Bash(codex exec \"Review this proposed feature for OpenAuntie \\(an evidence-based parenting agent\\). The feature has two parts::*)"
+    ]
+  }
+}

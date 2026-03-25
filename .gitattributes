@@ -1,0 +1,2 @@
+# Ensure LF line endings for shell scripts (critical for containers/cron)
+*.sh text eol=lf

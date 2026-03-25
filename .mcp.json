@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "parenting": {
+      "command": "uv",
+      "args": ["run", "python", "-m", "mcp_server.run_server"],
+      "cwd": "."
+    }
+  }
+}
