@@ -17,7 +17,7 @@ Technical reference for developers and contributors.
           │        Interface Layer        │
           │  ┌────────────┐ ┌─────────┐  │
           │  │ MCP Server │ │   CLI   │  │
-          │  │  (62 tools)│ │         │  │
+          │  │  (71 tools)│ │         │  │
           │  └─────┬──────┘ └────┬────┘  │
           └────────┼─────────────┼───────┘
                    │             │
@@ -68,7 +68,7 @@ MCP tools are thin wrappers. Each tool:
 
 Tools do not contain business logic. All validation, computation, and state management happens in the service layer.
 
-**MCP Server:** `mcp_server/server.py` -- single file, FastMCP framework, all 62 tools registered with `parenting_` prefix and full MCP annotations (readOnlyHint, destructiveHint, idempotentHint, openWorldHint).
+**MCP Server:** `mcp_server/server.py` -- single file, FastMCP framework, all 71 tools registered with `parenting_` prefix and full MCP annotations (readOnlyHint, destructiveHint, idempotentHint, openWorldHint).
 
 **CLI:** `src/parenting/cli.py` -- direct service invocation for command-line usage.
 

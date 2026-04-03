@@ -159,7 +159,7 @@ src/parenting/          Core Python library
 ├── services/           Business logic (stateless, testable)
 └── storage/            JSON file storage (atomic writes)
 
-mcp_server/             Single MCP server (~50 tools)
+mcp_server/             Single MCP server (71 tools)
 knowledge/              15 evidence-based reference documents
 adapters/               Platform config generators
 docs/                   Setup guides, how-tos, examples

@@ -29,7 +29,7 @@ from parenting.storage.json_store import JsonStore
 
 mcp = FastMCP(
     "openauntie",
-    description="OpenAuntie — Evidence-based parenting consulting agent",
+    instructions="OpenAuntie — Evidence-based parenting consulting agent",
 )
 
 
