@@ -29,9 +29,9 @@ You need the OpenAuntie files on your computer first:
 3. Click **Download ZIP**
 4. Unzip the downloaded file — you'll find two important folders:
    - `knowledge/` — 15 research documents to upload to your GPT
-   - `adapters/output/chatgpt/` — the system prompt file
+   - `adapters/` — contains the system prompt file at `adapters/chatgpt_system_prompt.txt`
 
-> **Note:** If the `adapters/output/chatgpt/` folder is empty or missing the system prompt file, you can copy the system prompt directly from GitHub: [system_prompt.txt](https://github.com/adgranoff/OpenAuntie/blob/main/adapters/output/chatgpt/system_prompt.txt). Click the file, then click the copy button to copy the contents.
+> **Tip:** You can also view the system prompt directly on GitHub: [chatgpt_system_prompt.txt](https://github.com/adgranoff/OpenAuntie/blob/main/adapters/chatgpt_system_prompt.txt). Click the file, then click the copy button to copy the contents.
 
 Now continue to Step 1.
 
@@ -42,9 +42,9 @@ Now continue to Step 1.
 
 ### Step 2: Add the System Prompt
 
-You'll find the system prompt file in the downloaded ZIP at `adapters/output/chatgpt/system_prompt.txt`. Open it with any text editor (Notepad, TextEdit) and copy the contents. Paste them into the **Instructions** field.
+You'll find the system prompt file in the downloaded ZIP at `adapters/chatgpt_system_prompt.txt`. Open it with any text editor (Notepad, TextEdit) and copy the contents. Paste them into the **Instructions** field.
 
-You can also copy it directly from GitHub: [system_prompt.txt](https://github.com/adgranoff/OpenAuntie/blob/main/adapters/output/chatgpt/system_prompt.txt)
+You can also copy it directly from GitHub: [chatgpt_system_prompt.txt](https://github.com/adgranoff/OpenAuntie/blob/main/adapters/chatgpt_system_prompt.txt)
 
 ### Step 3: Upload Knowledge Files
 

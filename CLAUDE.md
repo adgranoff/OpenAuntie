@@ -19,7 +19,7 @@ adapters/                Platform config generators (Claude Desktop, Code, Codex
   manifest.py            Single source of truth for tool definitions
   output/                Generated output (gitignored — contains machine-specific paths)
 tests/                   13 test files, 181 tests (pytest)
-docs/                    Setup guides (7), user guides (8), examples (5), reference docs
+docs/                    Setup guides (6), user guides (8), examples (5), reference docs
 ```
 
 ## Domains (all fully implemented)
@@ -80,6 +80,7 @@ Output goes to `adapters/output/` (gitignored). Users must regenerate for their 
 - Make privacy and safety architecture a Phase 0 deliverable before collecting family data or building adapters; define storage boundaries, PII handling, and parent-facing disclosures up front.
 - Document platform capability differences explicitly; separate advice-only adapters from full local-tracking setups in prompts, setup guides, and FAQs.
 - Generated adapter output files must never be committed — they embed machine-specific absolute paths. Keep `adapters/output/` in `.gitignore`.
+- If this repo uses package-level `__init__.py` exports for models or services, keep those re-exports synchronized with the actual implemented modules.
 
 ## LLM Anti-Patterns
 
